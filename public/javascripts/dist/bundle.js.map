@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts.js"],"names":["dog","console","log"],"mappings":";;AAAA,IAAMA,MAAM,SAANA,GAAM,GAAM;AACjBC,SAAQC,GAAR,CAAY,MAAZ;AACA,CAFD","file":"bundle.js","sourcesContent":["const dog = () => {\n\tconsole.log(\"woof\")\n}"]}

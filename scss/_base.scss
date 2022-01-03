@@ -1,0 +1,21 @@
+// Variables
+$black: #333;
+$white: #fff;
+
+
+//Colors
+.black {
+	color:$black;
+}
+.white {
+	color:$white;
+}
+//Backgrounds
+.black-bg {
+	background-color:$black;
+	color:$white;
+}
+.white-bg {
+	background-color:$white;
+	color:$black;
+}

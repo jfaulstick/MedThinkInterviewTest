@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts.js"],"names":["dog","console","log"],"mappings":"AAAA,aAEA,IAAIA,IAAM,WACTC,QAAQC,IAAI","sourcesContent":["const dog = () => {\n\tconsole.log(\"woof\")\n}"],"file":"bundle-min.js"}
