@@ -1,0 +1,46 @@
+.main-header {
+  background-color: rgba(52, 152, 219, 0.7);
+  padding: 2.5em 7em;
+  margin-top: 3em;
+}
+
+.main-header-text {
+  color: $white;
+  font-size: 3.5em;
+}
+
+.main-content-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 6em;
+}
+
+.main-content-container ul {
+  margin-right: 2em;
+}
+
+.main-content-container ul li {
+  font-size: 2em;
+}
+
+.img-portrait {
+  border-radius: 50%;
+  height: 50vh;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+
+  a {
+    color: $white;
+    font-size: 2em;
+  }
+
+  a:hover {
+    color: #ddd;
+  }
+
+}

@@ -3,3 +3,8 @@
 @import "typography";
 @import "components";
 @import "home";
+
+body {
+  // background-color: $black;
+  background: linear-gradient(0deg, rgba(52, 152, 219, 0.3), rgba(52, 152, 219, 0.3)), url("../images/pexels-lucas-pezeta-3772336.jpg");
+}

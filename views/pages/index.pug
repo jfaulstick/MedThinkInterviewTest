@@ -1,16 +1,18 @@
 extends ../layouts/layout
 
 block content
-	section
-		.grid-container
-			.grid-x.grid-margin-x.grid-padding-y
-				h1 Hello World
+  header(class="main-header") 
+    span(class="main-header-text") Joe Faulstick - Software Developer
 
-
-
-
-
-
-
-
-
+  section 
+    .main-content-container(class="white")
+      ul 
+        li Joe previously spent 15 years in the video game industry where he worked on popular games such as <i>Swat 4</i>, <i>BioShock</i>, <i>BioShock Infinite</i>, <i>Ryse: Son of Rome</i>, <i>Sunset Overdrive</i>, <i>Rise of the Tomb Raider</i>, and <i>Civilization VI</i>.
+        li He has lived in FOUR states but has finally settled down for good.
+        li He was featured in the book <i>Press Reset</i>, which covers the video game industry.
+        li Joe is an avid tech nut, gamer, loving husband, and proud father.
+      img(src="images/30541492.jpg" class="img-portrait")
+  section 
+    footer
+      .footer-container
+        a(href='/quiz') Quiz
