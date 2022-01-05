@@ -30,6 +30,14 @@
   height: 50vh;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  padding: 2em 0;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
@@ -41,5 +49,17 @@
 
   a:hover {
     color: #ddd;
+  }
+}
+
+.quiz-container {
+  margin: auto;
+}
+
+.answer-container {
+  margin-top: 4em;
+
+  p {
+    font-size: 1.6em;
   }
 }

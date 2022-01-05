@@ -1,7 +1,27 @@
 extends ../layouts/layout
 
 block content
-  section
-    .grid-container
-      .grid-x.grid-margin-x.grid-padding-y
-        h1 Quiz
+  header(class="main-header") 
+    span(class="main-header-text") Joe Faulstick - Software Developer
+  section 
+    .main-content-container(class="white")
+      .quiz-container
+        ul
+          each question in questions 
+            li
+              a(href=`/quiz?answer=${question.id}`) #{question.string}
+        .answer-container
+          p #{answer}
+          //- case answer
+          //-   when 1
+          //-     p Truth!
+          //-   when 2
+          //-     p Truth!
+          //-   when 3
+          //-     p Lie!
+          //-   default 
+          //-     p Select your answer!
+  section 
+    footer
+      .footer-container
+        a(href='/') Home
