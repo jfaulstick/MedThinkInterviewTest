@@ -1,5 +1,9 @@
 extends ../layouts/layout
 
+//- I'm not a big fan of the below solution as I'm sure it does not follow proper PUG/Jade patterns for dynamically changing screen elements.
+//- I am sure further learning of PUG would have lead me to a much better solution for serving the results of the Two Truths and One Lie quiz
+//- such as by dynamically recompiling or rerendering a PUG partial tied to either a click event or server query call.
+
 block content
   header(class="main-header") 
     span(class="main-header-text") Joe Faulstick - Software Developer
@@ -12,15 +16,6 @@ block content
               a(href=`/quiz?answer=${question.id}`) #{question.string}
         .answer-container
           p #{answer}
-          //- case answer
-          //-   when 1
-          //-     p Truth!
-          //-   when 2
-          //-     p Truth!
-          //-   when 3
-          //-     p Lie!
-          //-   default 
-          //-     p Select your answer!
   section 
     footer
       .footer-container
